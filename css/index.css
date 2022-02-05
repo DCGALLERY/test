@@ -1,0 +1,46 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@500;600;700&display=swap');
+
+.preloader__logo {
+    height: 50%;
+    width: 50%;
+}
+
+.slider__headline {
+    display: block;
+    width: calc(1 * (60 * 1px));
+    height: 0.5px;
+    background-color: var(--color-light-1);
+  }
+  
+  @media screen and (min-width: 320px) {
+    .slider__headline {
+      width: calc(1 * (60 * 1px + (120 - 60) * ((100vw - 320px) / 2240)));
+    }
+  }
+  
+  @media screen and (min-width: 2560px) {
+    .slider__headline {
+      width: calc(1 * (120 * 1px));
+    }
+  }
+
+  .slider-fullscreen-projects__images {
+    background: rgba(0, 0, 0, 0.4);
+  }
+
+  .text-light{
+    color: var(--color-light-1);
+  }
+
+  .social__item a {
+    font-size: 16px;
+  }
+
+  .social__item i {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    font-size: 16px;
+  }

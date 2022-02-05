@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css?family=Special+Elite');
+.lazy>img {
+    border: none;
+    border-radius: 20px;
+}
+
+.figure-post__media>a {
+    border: none;
+    border-radius: 20px;
+}
+
+.figure-post__date {
+    border: none;
+    border-radius: 20px 0 20px 0;
+}
+
+.bg-white {
+    background-color: rgba(255, 255, 255, .55) !important;
+    backdrop-filter: blur(15px);
+}
+
+.bg-dark-2{
+    background-color: rgba(0, 0, 0, 0.55) !important;
+    backdrop-filter: blur(15px);
+}
+
+.figure-post__date {
+    background-color: rgba(255, 255, 255, .75) !important;
+    backdrop-filter: blur(10px);
+}
+
+.rounded-slide-img {
+    border-radius: 20px 0 0 20px !important;
+}
+
+.rounded-slide-bg {
+    border-radius: 20px !important;
+}
+
+.rounded-circle {
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.rounded {
+    border-radius: 20px !important;
+}
+
+@media screen and (max-width:992px) {
+    .rounded-slide-img {
+        border-radius: 20px 20px 0 0 !important;
+    }
+}
+
+.section-image__wrapper {
+    border-radius: 20px;
+}
+.section-about__floating-image{
+    border-radius: 20px;
+    max-width: 400px;
+    height: 400px;
+}
+
+.section-masthead__background_halfscreen {
+    border-radius: 0 0 0 40px;
+}
