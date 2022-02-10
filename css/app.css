@@ -36,7 +36,7 @@
   }
 
   .text-light{
-    color: var(--color-light-1);
+    color: var(--color-light-1) !important;
   }
 
   .social__item a {
