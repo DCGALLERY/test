@@ -1,0 +1,13 @@
+.hover-zoom__zoom, .hover-zoom__inner {
+    border-radius: 20px;
+}
+
+.preloader__logo {
+    height: 50%;
+    width: 50%;
+}
+
+.bg-dark-2-glass {
+    background-color: rgba(0, 0, 0, 0.65) !important;
+    backdrop-filter: blur(10px);
+}

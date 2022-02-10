@@ -14,14 +14,9 @@
     border-radius: 20px 0 20px 0;
 }
 
-.bg-white {
-    background-color: rgba(255, 255, 255, .55) !important;
-    backdrop-filter: blur(15px);
-}
-
-.bg-dark-2{
-    background-color: rgba(0, 0, 0, 0.55) !important;
-    backdrop-filter: blur(15px);
+.bg-dark-2-glass {
+    background-color: rgba(0, 0, 0, 0.65) !important;
+    backdrop-filter: blur(10px);
 }
 
 .figure-post__date {
@@ -65,4 +60,13 @@
 
 .section-masthead__background_halfscreen {
     border-radius: 0 0 0 40px;
+}
+
+.preloader__logo {
+    height: 50%;
+    width: 50%;
+}
+
+.widgettitle:after {
+    background-color: var(--color-light-1);
 }

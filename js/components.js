@@ -2444,6 +2444,8 @@ function PJAXInitNewPage(data) {
 					PJAXUpdateHead(data),
 					PJAXUpdateAdminBar(data),
 					PJAXUpdateLanguageSwitcher(data),
+					loadLink(),
+					loadPortfolio(),
 				])
 				.then(() => document.fonts.ready)
 				.then(() => SetText.splitText({
