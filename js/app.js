@@ -117,7 +117,8 @@ function loadLink(data){
       $(".js-href-instagram").prop("href", domain+link_social["instagram"]);
       $(".js-href-github").prop("href", domain+link_social["github"]);
       $(".js-href-500px").prop("href", domain+link_social["500px"]);
-      $(".js-current-year").html(new Date().getFullYear());
+      var currentYear = new Date().getFullYear(); 
+      $(".js-current-year").html(currentYear);
       
 }
 
