@@ -117,6 +117,7 @@ function loadLink(data){
       $(".js-href-instagram").prop("href", domain+link_social["instagram"]);
       $(".js-href-github").prop("href", domain+link_social["github"]);
       $(".js-href-500px").prop("href", domain+link_social["500px"]);
+      $(".js-current-year").html(new Date().getFullYear());
       
 }
 
@@ -127,7 +128,6 @@ function loadInfo(data){
       $(".js-info-email").html(info["email"]);
       $(".js-info-phone").html(info["phone"]);
       $(".js-info-address").html(info["address"]["stress"]+`<br/>`+info["address"]["city"]+`, `+info["address"]["country"]+`<br/>`+info["address"]["zip-code"]);
-      $(".js-current-year").html(new Date().getFullYear());
 }
 
 $.getJSON("portfolio.json", function(data){
