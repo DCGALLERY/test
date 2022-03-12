@@ -6273,6 +6273,14 @@ function Preloader({
   this.$counter = this.$target.find('.preloader__counter-current');
   this.$wrapperCircle = this.$target.find('.preloader__circle');
 
+  lottie.loadAnimation({
+	container: document.getElementById('js-preloader-logo'), 
+	renderer: 'svg',
+	loop: true,
+	autoplay: true,
+	path: 'data/lottie/thedc.json'
+  });
+
   // Cursor
   this.cursor = cursor;
   this.cursor.centerX = parseFloat(this.$wrapperCircle.innerWidth() / 2);

@@ -4904,6 +4904,7 @@ div.wpcf7-validation-errors, div.wpcf7-acceptance-missing {
 
 .preloader__header {
   width: 100%;
+  margin: auto;
 }
 
 .preloader__counter {

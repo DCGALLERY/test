@@ -14,6 +14,7 @@
     <!-- Template Main Stylesheet -->
     <link rel="stylesheet" type="text/css" href="css/main.css"/>
     <link rel="stylesheet" type="text/css" href="css/app.css"/>
+    <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"/>
     
     <!-- Favicons & App Icons -->
     <link rel="apple-touch-icon" sizes="57x57" href="img/content/apple-icon-57x57.png"/>
@@ -39,16 +40,11 @@
     <div data-barba="wrapper">
       <!-- PAGE PRELOADER -->
       <div class="preloader text-center bg-dark-2" id="js-preloader" data-arts-theme-text="light">
-        <div class="preloader__content">
+        <div class="preloader__content" id="js-preloader-logo">
           <!-- header -->
-          <div class="preloader__header mt-auto">
-            <img class="preloader__logo" src="img/general/logo-white.svg" alt="logo-preloader" height="50px"/>
-          </div>
-                    
-          <!-- - header -->
-          <!-- counter -->
-          <div class="preloader__counter h5"><span class="preloader__counter-number preloader__counter-current">0</span><span class="preloader__counter-divider">/</span><span class="preloader__counter-number preloader__counter-total">100</span></div>
-          <!-- - counter -->
+          <!-- <div class="preloader__header mt-auto">
+            <img class="preloader__logo" src="img/general/logo-white-preload.svg" alt="logo-preloader" height="50px"/>
+          </div> -->
           <!-- circle holder -->
           <div class="preloader__circle"></div>
           <!-- - circle holder -->
@@ -312,11 +308,11 @@
                         <section class="widget widget_rhye_social">
                           <!-- content -->
                           <ul class="social">
-                            <li class="social__item"><a class="fa fa-facebook js-href-facebook" href="#" target="_blank" rel="noopener noreferrer"></a></li>
-                            <li class="social__item"><a class="fa fa-twitter js-href-twitter" href="#" target="_blank" rel="noopener noreferrer"></a></li>
-                            <li class="social__item"><a class="fa fa-instagram js-href-instagram" href="#" target="_blank" rel="noopener noreferrer"></a></li>
-                            <li class="social__item"><a class="fa fa-github js-href-github" href="#" target="_blank" rel="noopener noreferrer"></a></li>
-                            <li class="social__item"><a class="fa fa-500px js-href-500px" href="#"  target="_blank" rel="noopener noreferrer"></a></li>
+                            <li class="social__item"><a class="fa-brands fa-facebook js-href-facebook" href="#" target="_blank" rel="noopener noreferrer"></a></li>
+                            <li class="social__item"><a class="fa-brands fa-twitter js-href-twitter" href="#" target="_blank" rel="noopener noreferrer"></a></li>
+                            <li class="social__item"><a class="fa-brands fa-instagram js-href-instagram" href="#" target="_blank" rel="noopener noreferrer"></a></li>
+                            <li class="social__item"><a class="fa-brands fa-github js-href-github" href="#" target="_blank" rel="noopener noreferrer"></a></li>
+                            <li class="social__item"><a class="fa-brands fa-500px js-href-500px" href="#"  target="_blank" rel="noopener noreferrer"></a></li>
                           </ul>
                           <!-- - content -->
                         </section>
@@ -337,8 +333,9 @@
                   </div>
                 </div>
                 <!-- - slider FOOTER -->
-                <!-- slider COUNTER -->
-                <div class="slider__wrapper-counter slider-fullscreen-projects__counter">
+
+                 <!-- slider COUNTER -->
+                 <div class="slider__wrapper-counter slider-fullscreen-projects__counter">
                   <div class="slider__counter slider__counter_current">
                     <div class="js-slider-fullscreen-projects__counter-current swiper-container">
                       <div class="swiper-wrapper"></div>
@@ -348,6 +345,8 @@
                   <div class="slider__counter slider__counter_total js-slider-fullscreen-projects__counter-total"></div>
                 </div>
                 <!-- - slider COUNTER -->
+
+                
                 <!-- slider ARROWS -->
                 <div class="slider__arrow slider__arrow_left slider__arrow_absolute js-slider__arrow-prev">
                   <div class="arrow arrow-left js-arrow" data-arts-cursor="data-arts-cursor" data-arts-cursor-hide-native="true" data-arts-cursor-scale="0" data-arts-cursor-magnetic="data-arts-cursor-magnetic">
@@ -558,6 +557,7 @@
     <!-- - Slider Textures Shaders -->
     <!-- VENDOR SCRIPTS -->
     <script src="js/vendor.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lottie-web/5.9.1/lottie.min.js" integrity="sha512-CWKGqmXoxo+9RjazbVIaiFcD+bYEIcUbBHwEzPlT0FilQq3TCUac+/uxZ5KDmvYiXJvp32O8rcgchkYw6J6zOA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <!-- - VENDOR SCRIPTS -->
     <!-- COMPONENTS -->
     <script src="js/app.js"></script>
